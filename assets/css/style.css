@@ -1,4 +1,11 @@
 
+html {
+    height: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, #FFEADD 27.6%, #FFFBF1 96.88%), #FFF9EF no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
 body {
     position: relative;
     padding: 0;
@@ -7,69 +14,65 @@ body {
     height: 100%;
 }
 
-
-
-html {
-    background: radial-gradient(50% 50% at 50% 50%, #FFEADD 27.6%, #FFFBF1 96.88%), #FFF9EF no-repeat center center fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
+a:active, a:visited, a:link {
+    text-decoration: none;
+    color: #10248B;
 }
+
+a:hover {
+    text-decoration: underline;
+    color: #D96F6F;
+    cursor: pointer;
+}
+
 #container {
-    position: relative;
-    height: auto;
-   
+    position: absolute;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
 #navbar {
-    flex: 0.1;
+    flex: 0.2;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 0px;
-    padding: 0px;
-  
+    align-items: center;
+    height: auto;
+    width: auto;
 }
 
-#content {
-    flex: 1;
+.navbar-item {
+    font-size: 30px;
+    font-family: meno-banner, serif;
+    font-weight: 300;
+    color: #10248B;
+    transform: rotate(-90deg);
+    margin: 60px;
+    text-decoration: none;
 }
 
-#intro {
-    position: relative;
-    width: 1157px;
-    height: 606px;
-    left: 174px;
-    top: 148px;
-}
 
 .reg {
-    font-size: 54px;
-    font-family: meno-banner, serif;
+    flex: 1;
+    font-size: 48px;
+    font-family: reason-new, sans-serif;
     font-weight: 400;
     font-style: normal;
-    line-height: 100px;
+    line-height: 77px;
+    margin-right: 120px;
 
-    background: linear-gradient(180deg, rgba(42,65,184,1) 0%, rgba(153,60,210,1) 100%);
+    background: #10248B;
+    /*background: linear-gradient(180deg, #2A41B8 0%, #993CD2 65.62%);*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .ita {
-    font-size: 54px;
-    font-family: meno-banner, serif;
-    font-weight: 700;
-    font-style: italic;
+    font-size: 48px;
+    font-family: reason-new, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
-
-.navbar-item {
-    font-size: 30px;
-    font-family: antique-olive, sans-serif;
-    font-weight: 300;
-    line-height: 36px;
-    color: #10248B;
-    transform: rotate(-90deg);
-}
-
