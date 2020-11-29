@@ -9,7 +9,6 @@
 
 
 .circle {
-    z-index: -1;
     position: absolute;
     border-radius: 50%;
     opacity: 0.45;
@@ -17,7 +16,6 @@
     background: radial-gradient(50% 50% at 50% 50%, #FFEADD 27.6%, #FFFBF1 96.88%), #FFF9EF no-repeat center center fixed;
     -webkit-background-size: cover;
     background-size: cover;
-
 }
 
 .one {

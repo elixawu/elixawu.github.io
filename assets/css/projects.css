@@ -4,6 +4,7 @@ html {
     background: radial-gradient(50% 50% at 50% 50%, #FFEADD 27.6%, #FFFBF1 96.88%), #FFF9EF no-repeat center center fixed;
     -webkit-background-size: cover;
     background-size: cover;
+
 }
 
 body {
@@ -12,6 +13,14 @@ body {
     margin: 0px;
     width: 100%;
     height: 100%;
+}
+
+#circles {
+    z-index: -2;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 #container {
@@ -49,14 +58,16 @@ body {
 }
 .navlink:hover {
     text-decoration: underline;
-    color:#993CD2; 
+    color:#D96F6F; 
     cursor: pointer;
 }
 
 .work {
     flex: 1;
-    margin-right: 120px;
+    /*margin-right: 120px;*/
     color:#10248B;
+    width: 800px;
+    height: 400px;
 }
 
 h2 {
@@ -66,4 +77,25 @@ h2 {
     font-size: 60px;
     line-height: 69px;
     color: #10248B;
+}
+
+h4 {
+    font-family: meno-banner, serif;
+    font-style:normal;
+    font-weight: 300;
+    font-size: 30px;
+    color:#D96F6F; 
+
+}
+
+#image-slider {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+.slide {
+    height: 100%;
+    width: auto;
 }

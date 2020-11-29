@@ -19,6 +19,13 @@ body {
     color: #10248B;
 } */
 
+#circles {
+    z-index: -2;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
 
 #container {
     position: absolute;
@@ -55,7 +62,7 @@ body {
 }
 .navlink:hover {
     text-decoration: underline;
-    color:#993CD2; 
+    color:#D96F6F; 
     cursor: pointer;
 }
 
@@ -68,19 +75,20 @@ body {
     line-height: 77px;
     margin-right: 120px;
     color:#10248B;
+    overflow: scroll;
     /*background: #10248B; */
     /*background: linear-gradient(180deg, #2A41B8 0%, #993CD2 65.62%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
 }
 .nbjc-link {
-    color: #993CD2;
+    color: #D96F6F;
     text-decoration: none;
 }
 
 .nbjc-link:hover {
     text-decoration: underline;
-    color: #993CD2;
+    color: #D96F6F;
     cursor: pointer;
 }
 
