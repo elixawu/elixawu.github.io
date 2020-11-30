@@ -15,3 +15,7 @@ for (let i = 1; i <= len; i++) {
 	let slidename = "slide" + i;
 	document.getElementById(slidename).onclick = unhideLightboxes;
 }
+
+//TODO: add media response query / webpage size responsiveness
+//animate background circles
+//hover over intro text for pictures w/ css? or potentially JS
