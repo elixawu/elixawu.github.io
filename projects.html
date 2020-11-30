@@ -4,23 +4,29 @@
     <link rel="stylesheet" type="text/css" href="assets/css/circles.css">
     <link rel="stylesheet" href="https://use.typekit.net/mia5qdt.css">
     <link rel="stylesheet" type="text/css" href="assets/css/projects.css">
-    <script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <!--<script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>-->
     <!--<link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide-core.min.css"> -->
 </head>
 
 <body>
     <img src="assets/images/icon.svg" class="icon">
+
+    <div id="lightbox-overlay" class="hidden"></div>
+
     <div id="container">
         <div id="navbar">
             <div class="navbar-item"><a href="index.html" class="navlink">about</a></div>
             <div class="navbar-item"><a href="projects.html"class="navlink">projects</a></div>
-            <div class="navbar-item"><a href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7bb015df-ac54-487c-8520-e8a2e10f925f/Resume.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201129%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201129T002434Z&X-Amz-Expires=86400&X-Amz-Signature=b2b49a6208c13164605d485ed584c1c77e36eacd44b052d47cec08659ba57e56&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Resume.pdf%22"class="navlink">résumé</a></div>
+            <div class="navbar-item"><a href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7bb015df-ac54-487c-8520-e8a2e10f925f/Resume.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201130%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201130T004048Z&X-Amz-Expires=86400&X-Amz-Signature=d19dfcc3ca73b7e2e3ebfc6f57a0f6f966fcecce9681fecb195f2c6d324555a6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Resume.pdf%22"class="navlink">résumé</a></div>
         </div>
+
         <div class="work">
             <h2>Selected Work</h2>
             <h4>Mobius: Re-imagining a public transit application</h4>
-            <div id="image-slider" class="splide">
-                <img src="assets/images/mobius/1.jpg" class="slide">
+            <h5>This was my first ever "design" project for a class I took about Human Centered Design. Our goal was to find some problem we had experienced and come up with some sort of solution using the human centered design approach.</h5>
+            <div id="slider">
+                <img src="assets/images/mobius/1.jpg"class="slide">
                 <img src="assets/images/mobius/2.jpg"class="slide">
                 <img src="assets/images/mobius/3.jpg"class="slide">
                 <img src="assets/images/mobius/4.jpg"class="slide">
@@ -28,8 +34,40 @@
                 <img src="assets/images/mobius/6.jpg"class="slide">
                 <img src="assets/images/mobius/7.jpg"class="slide">
             </div>
+            <!-- <div id="lightbox-imgs">
+                <img src="assets/images/mobius/1.jpg"class="lightbox hidden" id="slide1">
+                <img src="assets/images/mobius/2.jpg"class="lightbox hidden" id="slide2">
+                <img src="assets/images/mobius/3.jpg"class="lightbox hidden" id="slide3">
+                <img src="assets/images/mobius/4.jpg"class="lightbox hidden" id="slide4">
+                <img src="assets/images/mobius/5.jpg"class="lightbox hidden" id="slide5">
+                <img src="assets/images/mobius/6.jpg"class="lightbox hidden" id="slide6">
+                <img src="assets/images/mobius/7.jpg"class="lightbox hidden" id="slide7">
+            </div> -->
+
+            <h4>Kingpin Donuts Redesign</h4>
+            <h5>This redesign of a local donut shop was for a project for my Web Development and Design class. I created a few different views to showcase basic information of the shop, and then a feature to view the menu and different flavors. A full write-up on design choices is in the Figma → as well as the iterations from lo-fi to hi-fi. After designing the site, I coded it out primarily with HTML/CSS.</h5>
+            <div id="slider">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="auto"src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FjAfjBPAv4a3mqeAXrEA9SO%2FKingpin-Donuts%3Fnode-id%3D9%253A121" allowfullscreen></iframe>
+                <img src="assets/images/donut/1.jpg"class="slide">
+                <img src="assets/images/donut/2.jpg"class="slide">
+                <img src="assets/images/donut/3.jpg"class="slide">
+                <img src="assets/images/donut/4.jpg"class="slide">
+                <img src="assets/images/donut/5.jpg"class="slide">
+                <img src="assets/images/donut/6.jpg"class="slide">
+            </div>
+
+            <h4>Freelance/Other: Visual and Graphic Design</h4>
+            <h5>This is a collection of some of the various illustrations or things I have created, either for fun or for organizations I have been involved with in the past!</h5>
+            <div id="slider">
+                <img src="assets/images/other/1.png"class="slide">
+                <img src="assets/images/other/2.png"class="slide">
+                <img src="assets/images/other/3.png"class="slide">
+                <img src="assets/images/other/4.png"class="slide">
+            </div>
         </div>
+
     </div>
+
     <div id="circles">
         <span class="circle one"></span>
         <span class="circle two"></span>

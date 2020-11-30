@@ -27,19 +27,23 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    display: flex;
+    /*display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;*/
 }
 
 #navbar {
-    flex: 0.2;
+    /*flex: 0.2;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    height: auto;
-    width: auto;
+    align-items: center; */
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    /*height: auto;
+    width: auto;*/
 }
 
 .navbar-item {
@@ -48,7 +52,8 @@ body {
     font-weight: 300;
     color: #10248B;
     transform: rotate(-90deg);
-    margin: 60px;
+    padding: 40px;
+    margin: 20px;
     text-decoration: none;
 }
 
@@ -63,11 +68,14 @@ body {
 }
 
 .work {
-    flex: 1;
+    /*flex: 1;*/
     /*margin-right: 120px;*/
-    color:#10248B;
-    width: 800px;
-    height: 400px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    color: #10248B;
+    width: 80%;
+    height: 100%;
 }
 
 h2 {
@@ -77,6 +85,8 @@ h2 {
     font-size: 60px;
     line-height: 69px;
     color: #10248B;
+    margin-top: 0px;
+    margin-bottom: 24px;
 }
 
 h4 {
@@ -85,17 +95,60 @@ h4 {
     font-weight: 300;
     font-size: 30px;
     color:#D96F6F; 
-
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
-#image-slider {
+h5 {
+    font-family: reason-new, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color:#10248B;
+    margin-top: 0px;
+    margin-bottom: 18px;
+    margin-right: 72px;
+}
+
+#slider {
     display: flex;
     height: 400px;
     justify-content: space-between;
     overflow: scroll;
+    padding-bottom: 40px;
+    padding-right: 80px;
 }
 
 .slide {
     height: 100%;
     width: auto;
+    padding-right: 24px;
+    box-shadow: -2px 4px 23px 0px rgba(0, 0, 0, 0.1);
 }
+
+.hidden {
+    display: none;
+}
+
+#lightbox-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.lightbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+}
+
+.lightbox img {
+    width: 100%;
+}
+
