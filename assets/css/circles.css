@@ -8,6 +8,7 @@
 }
 
 
+
 .circle {
     position: absolute;
     border-radius: 50%;
@@ -16,14 +17,32 @@
     background: radial-gradient(50% 50% at 50% 50%, #FFEADD 27.6%, #FFFBF1 96.88%), #FFF9EF no-repeat center center fixed;
     -webkit-background-size: cover;
     background-size: cover;
+    /*animation-name: fadeInOut;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1; */
 }
 
+@keyframes fadeInOut {
+    0% {
+        filter: blur(20px);
+        opacity: 0.45;
+    }
+    50% {
+        filter: blur(4px);
+        opacity: 0.70;
+    }
+    100% {
+        filter: blur(20px);
+        opacity: 0.25;
+    }
+}
 .one {
     background: #FFCCF1;
     width: 349px;
     height: 349px;
     left: -159px;
     top: 0px;
+    animation: fadeInOut 4s ease-in-out0s infinite forwards;
 }
 
 .two {
@@ -33,7 +52,9 @@
     top: -83px;
 
     background: #E2CEEB;
+    animation: fadeInOut 4s ease-in-out 1s infinite forwards;
 }
+    
 
 .three {
     width: 317px;
@@ -42,6 +63,7 @@
     top: -161px;
 
     background: #FFAF82;
+    animation: fadeInOut 4s ease-in-out 2s infinite forwards;
 }
 
 .four {
@@ -51,6 +73,7 @@
     top: -174px;
 
     background: #FFE485;
+    animation: fadeInOut 4s ease-in-out 0s infinite forwards;
 }
 
 .five {
@@ -60,6 +83,7 @@
     right: -140px;
     z-index: 1;
     background: #CEEBDD;
+    animation: fadeInOut 4s ease-in-out 1s infinite forwards;
 }
 
 .six {
@@ -69,6 +93,7 @@
     top: 65px;
 
     background: #96B3FF;
+    animation: fadeInOut 4s ease-in-out 2s infinite forwards;
 }
 
 .seven {
@@ -78,6 +103,7 @@
     bottom: 0px;
 
     background: #FFCCF1;
+    animation: fadeInOut 4s ease-in-out 0s infinite forwards;
 }
 
 .eight {
@@ -87,6 +113,7 @@
     top: 788px;
     
     background: #AFBAEF;
+    animation: fadeInOut 4s ease-in-out 1s infinite forwards;
 }
 
 .nine {
@@ -96,6 +123,7 @@
     top: 749px;
     
     background: #CEEBDD;
+    animation: fadeInOut 4s ease-in-out 2s infinite forwards;
 }
 
 .ten {
@@ -105,4 +133,5 @@
     top: 607px;
     
     background: #FFE485;
+    animation: fadeInOut 4s ease-in-out 0s infinite forwards;
 }
