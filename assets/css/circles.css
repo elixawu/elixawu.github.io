@@ -60,7 +60,7 @@
     width: 317px;
     height: 317px;
     left: 149px;
-    top: -161px;
+    top: -190px;
 
     background: #FFAF82;
     animation: fadeInOut 4s ease-in-out 2s infinite forwards;
@@ -70,7 +70,7 @@
     width: 349px;
     height: 349px;
     right: 60px;
-    top: -174px;
+    top: -180px;
 
     background: #FFE485;
     animation: fadeInOut 4s ease-in-out 0s infinite forwards;
@@ -109,8 +109,8 @@
 .eight {
     width: 377px;
     height: 377px;
-    left: 1000px;
-    top: 788px;
+    right: -60px;
+    bottom: -200px;
     
     background: #AFBAEF;
     animation: fadeInOut 4s ease-in-out 1s infinite forwards;
@@ -119,8 +119,8 @@
 .nine {
     width: 242px;
     height: 242px;
-    left: 93px;
-    top: 749px;
+    left: 120px;
+    bottom: -100px;
     
     background: #CEEBDD;
     animation: fadeInOut 4s ease-in-out 2s infinite forwards;
@@ -130,7 +130,7 @@
     width: 349px;
     height: 349px;
     left: -175px;
-    top: 607px;
+    bottom: -75px;
     
     background: #FFE485;
     animation: fadeInOut 4s ease-in-out 0s infinite forwards;
