@@ -15,6 +15,13 @@ body {
     height: 100%;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    color:#D96F6F;  
+}
 #circles {
     z-index: -2;
     position: fixed;
@@ -107,11 +114,24 @@ h5 {
     padding-right: 80px;
 }
 
+#slider::-webkit-scrollbar {
+    display: none;
+}
+
+
 .slide {
     height: 100%;
     width: auto;
     padding-right: 24px;
     box-shadow: -2px 4px 23px 0px rgba(0, 0, 0, 0.1);
+}
+
+.figma {
+   height: 100%px;
+   width: 600px;
+   padding-right: 24px;
+   padding-bottom: 20px;
+   box-shadow: -2px 4px 23px 0px rgba(0, 0, 0, 0.1); 
 }
 
 .hidden {

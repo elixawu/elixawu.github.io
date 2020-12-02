@@ -14,6 +14,9 @@ body {
     height: 100%;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
 
 #circles {
     z-index: -2;
