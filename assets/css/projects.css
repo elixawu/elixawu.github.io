@@ -105,6 +105,17 @@ h5 {
     margin-right: 72px;
 }
 
+.tags {
+    font-family: reason-new, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color:#D96F6F; 
+    margin-top: 0px;
+    margin-bottom: 12px;
+    margin-left: 24px;
+}
+
 #slider {
     display: flex;
     height: 400px;
