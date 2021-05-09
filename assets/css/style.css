@@ -123,12 +123,29 @@ body::-webkit-scrollbar {
     text-decoration: none;
 }
 
+
 .nbjc-link:hover {
     text-decoration: underline;
     color: #D96F6F;
     cursor: pointer;
 }
 
+.desc-link {
+    color: #10248B;
+    text-decoration: none;
+}
+
+
+.desc-link:hover {
+    text-decoration: underline;
+    color: #10248B;
+    cursor: pointer;
+}
+
 .hidden {
     display: none;
+}
+
+.footer {
+    
 }
