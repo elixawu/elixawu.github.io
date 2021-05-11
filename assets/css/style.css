@@ -64,9 +64,9 @@ body::-webkit-scrollbar {
 .reg {
     /*flex: 1;*/
     position: absolute;
-    top: 50%;
     left: 20%;
-    transform: translate(0%, -50%);
+    top: 50%;
+    transform: translateY(-50%);
 
     font-size: 48px;
     font-family: reason-new, sans-serif;
@@ -75,7 +75,7 @@ body::-webkit-scrollbar {
     line-height: 75px;
     color:#10248B; 
 
-    margin-right: 150px;
+    margin-right: 15%;
     overflow: scroll;
     /*background: #10248B; */
     /*background: linear-gradient(180deg, #2A41B8 0%, #993CD2 65.62%);
@@ -94,8 +94,6 @@ body::-webkit-scrollbar {
     .reg {
         font-size: 44px;
         line-height: 64px;
-        top: 20%;
-        transform: translate(0, 0%);
     }
 
     .ita {
@@ -105,14 +103,45 @@ body::-webkit-scrollbar {
 
 @media (max-width: 975px), (max-height: 750px) {
     .reg {
-        font-size: 36px;
-        line-height: 60px;
-        top: 25%;
-        transform: translate(0, 0);
+        font-size: 32px;
+        line-height: 48px;
     }
 
     .ita {
-        font-size: 36px;
+        font-size: 32px;
+    }
+
+    .navbar-item {
+        font-size: 24px;
+        margin: 15px;
+        padding: 30px;
+    }
+    #navbar {
+        left: 10%;
+    }
+}
+
+@media (max-width: 450px), (max-height: 740px) {
+    .reg {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .ita {
+        font-size: 24px;
+    }
+
+    .icon {
+        width: 30px;
+    }
+
+    .navbar-item {
+        font-size: 20px;
+        margin: 10px;
+        padding: 25px;
+    }
+    #navbar {
+        left: 10%;
     }
 }
 
@@ -146,6 +175,5 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-.footer {
-    
-}
+
+/** TODO: add footer w links + made by**/ 

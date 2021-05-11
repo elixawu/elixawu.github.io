@@ -8,11 +8,10 @@
 }
 
 
-
 .circle {
     position: absolute;
     border-radius: 50%;
-    opacity: 0.45;
+    opacity: 0.3;
     filter: blur(20px);
     background: radial-gradient(50% 50% at 50% 50%, #FFEADD 27.6%, #FFFBF1 96.88%), #FFF9EF no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -25,15 +24,15 @@
 @keyframes fadeInOut {
     0% {
         filter: blur(20px);
-        opacity: 0.45;
+        opacity: 0.25;
     }
     50% {
         filter: blur(4px);
-        opacity: 0.70;
+        opacity: 0.40;
     }
     100% {
         filter: blur(20px);
-        opacity: 0.25;
+        opacity: 0.15;
     }
 }
 .one {
@@ -99,8 +98,8 @@
 .seven {
     width: 349px;
     height: 349px;
-    left: 1206px;
-    bottom: 0px;
+    right: -250px;
+    bottom: 100px;
 
     background: #FFCCF1;
     animation: fadeInOut 4s ease-in-out 0s infinite forwards;
@@ -134,4 +133,33 @@
     
     background: #FFE485;
     animation: fadeInOut 4s ease-in-out 0s infinite forwards;
+}
+
+@media (max-width: 450px), (max-height: 740px) {
+    @keyframes fadeInOut {
+        0% {
+            filter: blur(20px);
+            opacity: 0.2;
+        }
+        50% {
+            filter: blur(4px);
+            opacity: 0.40;
+        }
+        100% {
+            filter: blur(20px);
+            opacity: 0.1;
+        }
+    }
+    .circle {
+        height: 200px;
+        width: 200px;
+    }
+    .seven {
+        right: -150px;
+        bottom: 150px;
+    }
+    .eight {
+        right: -60px;
+        bottom: -100px;
+    }
 }
