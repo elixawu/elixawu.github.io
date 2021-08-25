@@ -1,5 +1,1 @@
-Options +FollowSymlinks -MultiViews
-RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} ^www\.elizawu\.me  [NC]
-RewriteRule ^zoom  https://berkeley.zoom.us/my/elizawu [R=301,NC,L]
+Redirect 301 /zoom https://berkeley.zoom.us/my/elizawu
