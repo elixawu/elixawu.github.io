@@ -1,7 +1,7 @@
 
 html {
     height: 100%;
-    background: radial-gradient(50% 50% at 50% 50%, #FFEADD 27.6%, #FFFBF1 96.88%), #FFF9EF no-repeat center center fixed;
+    background: radial-gradient(50% 50% at 50% 50%, #FFEADD 27.6%, #FFFBF1 96.88%),#FFFCF6 no-repeat center center fixed;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -76,7 +76,7 @@ body::-webkit-scrollbar {
     color:#10248B; 
 
     margin-right: 15%;
-    overflow: scroll;
+    overflow: hidden;
     /*background: #10248B; */
     /*background: linear-gradient(180deg, #2A41B8 0%, #993CD2 65.62%);
     -webkit-background-clip: text;
@@ -88,6 +88,21 @@ body::-webkit-scrollbar {
     font-family: reason-new, sans-serif;
     font-weight: 600;
     font-style: normal;
+}
+
+h3 {
+    font-family: reason-new, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 69px;
+    color: #10248B;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+#slider::-webkit-scrollbar {
+    display: none;
 }
 
 @media (max-width: 1150px) {
