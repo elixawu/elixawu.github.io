@@ -23,9 +23,9 @@
 }
 
 #footer .text {
-    text-align: center;
+    text-align: right;
     margin-bottom: 25px;
-    /*margin-right: 42px;*/
+    margin-right: 42px;
 }
 
 
