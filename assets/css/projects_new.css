@@ -82,12 +82,11 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
 }
 
 .work-grid .row {
     flex: 1;
-    width: 100%;
+    width: auto;
 }
 
 .row {

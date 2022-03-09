@@ -22,12 +22,15 @@ body::-webkit-scrollbar {
 a {
     color:#D96F6F;  
 }
-#circles {
-    z-index: -2;
+
+.icon {
+    z-index: 2;
     position: fixed;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
+    width: 44.02px;
+    height: 43.87px;
+    top: 42px;
+    right: 42px;
+
 }
 
 #container {
@@ -77,7 +80,7 @@ a {
     top: 10%;
     left: 20%;
     color: #10248B;
-    width: 80%;
+    width: 70%;
     height: 100%;
 }
 
@@ -143,17 +146,15 @@ h5 {
 
 
 .photo {
-    height: 100%;
-    width: auto;
-    padding-right: 24px;
-    box-shadow: -2px 4px 23px 0px rgba(0, 0, 0, 0.1);
+    height: auto;
+    width: 100%;
+    padding-bottom: 24px;
 }
 
 .figma {
    height: 100%;
    width: 600px;
    padding-right: 24px;
-   box-shadow: -2px 4px 23px 0px rgba(0, 0, 0, 0.1); 
 }
 
 @media (max-width: 450px), (max-height: 740px) {
