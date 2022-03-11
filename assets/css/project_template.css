@@ -84,6 +84,23 @@ a {
     height: 100%;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.row .photo {
+    margin-right: 24px;
+    width: 280px;
+}
+
+.row .other {
+    margin-right: 24px;
+    height: 460px;
+    width: auto;
+    padding-bottom: 24px;
+}
+
+
 h2 {
     font-family: reason-new, sans-serif;
     font-style: normal;
